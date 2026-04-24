@@ -1,16 +1,27 @@
-# React + Vite
+# College Blog Platform 🎓
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, full-stack social blogging platform built for college students to share academic tips, campus experiences, and placement news. This project features real-time updates, secure authentication, and a sleek dark-themed UI.
 
-Currently, two official plugins are available:
+## 🚀 Key Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **Real-time Feed**: Posts appear instantly across all users without refreshing.
+- **Secure Authentication**: Built-in signup/login with email verification.
+- **Interactions**: Like system and nested comments for campus discussions.
+- **Categorization**: Tag posts as #Academics, #Placement, #CampusLife, or #Events.
+- **Dark Mode**: Fully responsive UI with a smooth light/dark theme toggle.
+- **User Profiles**: Dedicated space to manage your posts and customize your @username.
 
-## React Compiler
+## 🛠️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Frontend**: React.js + Vite
+- **Styling**: Tailwind CSS (v4)
+- **Icons**: Lucide React
+- **Backend/Database**: Supabase (PostgreSQL)
+- **Security**: Row Level Security (RLS) policies to protect user data.
 
-## Expanding the ESLint configuration
+## 📦 Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 1. Clone the repository
+```bash
+git clone [https://github.com/YOUR_USERNAME/college-blog.git](https://github.com/YOUR_USERNAME/college-blog.git)
+cd college-blog
