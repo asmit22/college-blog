@@ -1,3 +1,14 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* This ensures the background actually changes color when .dark is added to the HTML tag */
+:root {
+  background-color: white;
+  color: black;
+}
+
+.dark {
+  background-color: #030712; /* Very dark gray/black */
+  color: white;
+}
