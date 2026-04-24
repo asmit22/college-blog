@@ -19,9 +19,3 @@ A modern, full-stack social blogging platform built for college students to shar
 - **Backend/Database**: Supabase (PostgreSQL)
 - **Security**: Row Level Security (RLS) policies to protect user data.
 
-## 📦 Getting Started
-
-### 1. Clone the repository
-```bash
-git clone [https://github.com/YOUR_USERNAME/college-blog.git](https://github.com/YOUR_USERNAME/college-blog.git)
-cd college-blog
